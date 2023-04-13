@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-titulo: 'Poppins', sans-serif;
+    --laranja: #ffa51f;
+    --cordefundo: #303030;
+}
+
+body {
+    background-color: var(--cordefundo);
+    height: 100vh;
+}
+
+header {
+    font-family: var(--fonte-titulo);
+    height: 161.75px;
+    background: url(../imagens/pexels-dinnow-9444476.jpg);
+    background-size: cover;
+    background-position:  center;
+    box-shadow: inset 7px 7px 11px 0px rgba(0, 0, 0, 0.692);
+    text-transform: uppercase;
+    color: var(--laranja);
+    text-align: center;
+}
+
+header>h2 {
+    margin-top: 5%;
+}
+
+#header1 {
+    text-align: right;
+    text-transform: lowercase;
+}
+
+#header1 a {
+    font-size: 1.2em;
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    transition: .2s ease;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#header1 a:hover {
+    color: white;
+    background-color: #ffa51f7a;
+    text-decoration: underline;
+}
+
+.section1 {
+    font-family: var(--fonte-titulo);
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section1 strong {
+    display: inline-block;
+    background-image: linear-gradient(to right, var(--laranja), transparent); 
+    border-radius: 20px;
+    padding-left: 8px;
+}
+
+.section1 h3 {
+    font-size: 1.4em;
+    margin-bottom: 19px;
+}
+
+.section1 img {
+    display: block;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.section1 p {
+    text-align: left;
+    text-indent: 30px;
+    font-size: 1.3em;
+}
+
+#texto {
+    display: block;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.section2 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+.section2 strong {
+    display: inline-block;
+    background-image: linear-gradient(to right, var(--laranja), transparent); 
+    border-radius: 20px;
+    padding-left: 8px;
+}
+
+.section2 h3 {
+    font-size: 1.4em;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+#content {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+.card {
+    margin-top: 20px;
+    width: 210px;
+    height: 210px;
+    border:  1px white solid;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);   
+}
+
+.card h3 {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card p {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 18px;
+}
+
+.section3 {
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
+
+.section3 p {
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+footer {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--laranja), rgb(255, 30, 0), black);
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+}
