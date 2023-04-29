@@ -20,8 +20,8 @@ header {
     font-family: var(--fonte-titulo);
     height: 161.75px;
     background: url(../imagens/pexels-dinnow-9444476.jpg);
-    background-size: cover;
-    background-position:  center;
+    background-attachment: fixed;
+    background-position:  center bottom;
     box-shadow: inset 7px 7px 11px 0px rgba(0, 0, 0, 0.692);
     text-transform: uppercase;
     color: var(--laranja);
@@ -50,8 +50,7 @@ header>h2 {
 
 #header1 a:hover {
     color: white;
-    background-color: #ffa51f7a;
-    text-decoration: underline;
+    background-color: #ffa51fc4;
 }
 
 .section1 {
@@ -113,7 +112,8 @@ header>h2 {
 }
 
 #content {
-    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
