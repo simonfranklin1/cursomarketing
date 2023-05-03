@@ -22,7 +22,7 @@ header {
     background: url(../imagens/pexels-dinnow-9444476.jpg);
     background-attachment: fixed;
     background-position:  center bottom;
-    box-shadow: inset 7px 7px 11px 0px rgba(0, 0, 0, 0.692);
+    box-shadow: inset 7px 7px 14px 0px rgba(0, 0, 0, 0.692);
     text-transform: uppercase;
     color: var(--laranja);
     text-align: center;
